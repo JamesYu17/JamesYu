@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(88, 88, 88);
+    text-align:center;
+}
+.container{
+    display: flex;
+    justify-content: center;    
+    gap: 10px;
+    align-items: flex-start;
+    margin: 50px;
+}
+.aboutme {
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+    border-style: none;
+    background-color: rgb(99, 78, 236);
+    padding: 100px;   
+    margin: 0px; 
+    font-size:larger;
+}
+.container img {
+    border-radius: 20px;
+    background-color: lightgray;
+    width: 531px;
+    height: 531px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.name{
+    color: rgb(255, 255, 255);
+}
+
+p{
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+    font-size: large;
+}
+
+li{
+    display: inline;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 5px 10px;
+  text-decoration: none;
+}
+
+li a:hover{
+    background-color: #babababa;
+}
+
+div.navigationbar{
+    position: sticky;
+    top: 0;
+    padding: 5px;
+}
+
+.seniorhigh img{
+    float: right;
+    width: 400px;
+    height: 250px;
+    border-radius: 60px;
+}
+
+.college img{
+    float:left;
+    width: 400px;
+    height: 250px;
+    border-radius: 60px;
+}
+
+.educcon{
+    display: flex;
+    justify-content: center;    
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.seniorhigh, .college{
+    background-color: aliceblue;
+    font-size: larger;
+    border-radius:10px ;
+    align-items:center ;
+}
+
+img{
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+    margin: 10px
+}
+
+button:hover{
+    background-color: #babababa;
+    cursor: pointer;
+}
